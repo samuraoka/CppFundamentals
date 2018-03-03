@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{163F804C-F94A-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesAndObjectsMain", "ClassesAndObjectsMain\ClassesAndObjectsMain.vcxproj", "{D7085C96-0404-405C-BAC9-9DEE8B3F694C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostLog", "BoostLog\BoostLog.vcxproj", "{5AB578E1-17CB-44CD-B43A-FE899A312937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +47,14 @@ Global
 		{D7085C96-0404-405C-BAC9-9DEE8B3F694C}.Release|x64.Build.0 = Release|x64
 		{D7085C96-0404-405C-BAC9-9DEE8B3F694C}.Release|x86.ActiveCfg = Release|Win32
 		{D7085C96-0404-405C-BAC9-9DEE8B3F694C}.Release|x86.Build.0 = Release|Win32
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Debug|x64.ActiveCfg = Debug|x64
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Debug|x64.Build.0 = Debug|x64
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Debug|x86.ActiveCfg = Debug|Win32
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Debug|x86.Build.0 = Debug|Win32
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Release|x64.ActiveCfg = Release|x64
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Release|x64.Build.0 = Release|x64
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Release|x86.ActiveCfg = Release|Win32
+		{5AB578E1-17CB-44CD-B43A-FE899A312937}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +62,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BEED87FE-5EBA-403B-8BC9-C3692444AA6A} = {50C6C1BA-99C7-48F2-9C88-9DFB8BE6B656}
 		{D7085C96-0404-405C-BAC9-9DEE8B3F694C} = {163F804C-F94A-423E-963A-DACC1A86146F}
+		{5AB578E1-17CB-44CD-B43A-FE899A312937} = {163F804C-F94A-423E-963A-DACC1A86146F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {791419DB-7C69-4056-AD01-E4DF4B4CAE74}
