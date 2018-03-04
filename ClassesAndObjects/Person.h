@@ -8,7 +8,7 @@ namespace kasumi
 	{
 	public:
 		Person();
-		Person(std::wstring &first, std::wstring &last, int arbitrary);
+		Person(std::wstring first, std::wstring last, int arbitrary);
 		~Person();
 
 		std::wstring getFirstname();
