@@ -2,6 +2,7 @@
 #include "Tweeter.h"
 
 using namespace kasumi;
+using namespace std;
 
 Tweeter::Tweeter() : Person()
 {
@@ -9,7 +10,7 @@ Tweeter::Tweeter() : Person()
 	BOOST_LOG_SEV(logger, debug) << L"Constructing a Tweeter...";
 }
 
-Tweeter::Tweeter(std::wstring &first, std::wstring &last, int arbitray, std::wstring &handle)
+Tweeter::Tweeter(wstring first, wstring last, int arbitray, wstring handle)
 	: Person(first, last, arbitray), twitterhandle(handle)
 {
 	auto logger = Logger::getLogger();
@@ -22,7 +23,7 @@ Tweeter::~Tweeter()
 	BOOST_LOG_SEV(logger, debug) << L"Destructing a Tweeter" << twitterhandle << "...";
 }
 
-std::wstring Tweeter::getTwitterHandle()
+wstring Tweeter::getTwitterHandle()
 {
 	return twitterhandle;
 }

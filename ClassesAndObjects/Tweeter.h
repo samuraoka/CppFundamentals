@@ -11,7 +11,7 @@ private:
 
 public:
 	Tweeter();
-	Tweeter(std::wstring &first, std::wstring &last, int arbitray, std::wstring &handle);
+	Tweeter(std::wstring first, std::wstring last, int arbitray, std::wstring handle);
 	virtual ~Tweeter();
 	std::wstring getTwitterHandle();
 };

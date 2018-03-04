@@ -2,6 +2,7 @@
 #include "Person.h"
 
 using namespace kasumi;
+using namespace std;
 
 Person::Person()
 	: arbitrarynumber(0)
@@ -10,7 +11,7 @@ Person::Person()
 	BOOST_LOG_SEV(logger, debug) << L"Constructing a Person...";
 }
 
-Person::Person(std::wstring &first, std::wstring &last, int arbitrary)
+Person::Person(wstring first, wstring last, int arbitrary)
 	: firstname(first), lastname(last), arbitrarynumber(arbitrary)
 {
 	auto logger = Logger::getLogger();
@@ -23,12 +24,12 @@ Person::~Person()
 	BOOST_LOG_SEV(logger, debug) << L"Destructing a Person " << firstname << L" " << lastname << L"...";
 }
 
-std::wstring Person::getFirstname()
+wstring Person::getFirstname()
 {
 	return firstname;
 }
 
-std::wstring Person::getLastname()
+wstring Person::getLastname()
 {
 	return lastname;
 }
