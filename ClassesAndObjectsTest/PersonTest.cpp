@@ -7,6 +7,8 @@
 // https://stackoverflow.com/questions/46278306/how-to-reference-header-files-in-visual-studio-2017-project
 #include "Person.h"
 
+using namespace kasumi;
+
 TEST(PersonTest, ShouldCreatePersonObject) {
 	// Arrange
 	// Nothing to do

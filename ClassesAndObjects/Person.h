@@ -2,19 +2,22 @@
 
 #include <string>
 
-class Person
+namespace kasumi
 {
-public:
-	Person();
-	Person(std::wstring &first, std::wstring &last, int arbitrary);
-	~Person();
+	class Person
+	{
+	public:
+		Person();
+		Person(std::wstring &first, std::wstring &last, int arbitrary);
+		~Person();
 
-	std::wstring getFirstname();
-	std::wstring getLastname();
-	int getArbitrarynumber();
+		std::wstring getFirstname();
+		std::wstring getLastname();
+		int getArbitrarynumber();
 
-private:
-	std::wstring firstname;
-	std::wstring lastname;
-	int arbitrarynumber;
-};
+	private:
+		std::wstring firstname;
+		std::wstring lastname;
+		int arbitrarynumber;
+	};
+}

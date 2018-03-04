@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Logger.h"
 
+using namespace kasumi;
+
 Logger Logger::singleton;
 
 Logger::Logger() : logger()

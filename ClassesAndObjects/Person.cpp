@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "Person.h"
 
+using namespace kasumi;
+
 Person::Person()
 	: arbitrarynumber(0)
 {
