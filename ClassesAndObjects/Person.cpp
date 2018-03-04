@@ -7,20 +7,20 @@ Person::Person()
 	: arbitrarynumber(0)
 {
 	auto logger = Logger::getLogger();
-	BOOST_LOG_SEV(logger, debug) << L"constructing" << std::endl;
+	BOOST_LOG_SEV(logger, debug) << L"Constructing a Person...";
 }
 
 Person::Person(std::wstring &first, std::wstring &last, int arbitrary)
 	: firstname(first), lastname(last), arbitrarynumber(arbitrary)
 {
 	auto logger = Logger::getLogger();
-	BOOST_LOG_SEV(logger, debug) << L"constructing " << firstname << L" " << lastname << std::endl;
+	BOOST_LOG_SEV(logger, debug) << L"Constructing a Person " << firstname << L" " << lastname << L"...";
 }
 
 Person::~Person()
 {
 	auto logger = Logger::getLogger();
-	BOOST_LOG_SEV(logger, debug) << L"destructing " << firstname << L" " << lastname << std::endl;
+	BOOST_LOG_SEV(logger, debug) << L"Destructing a Person " << firstname << L" " << lastname << L"...";
 }
 
 std::wstring Person::getFirstname()
